@@ -1,0 +1,17 @@
+#Thu Mar 17 02:24:18 GMT 2022
+bluej.teamsettings.ignore1=.*\\.class
+bluej.teamsettings.yourName=Michael
+bluej.teamsettings.git.server=github.kcl.ac.uk
+bluej.teamsettings.yourEmail=k20127931@kcl.ac.uk
+bluej.teamsettings.git.repositoryPrefix=/K20127931/SWIM.git
+bluej.teamsettings.vcs=git
+bluej.teamsettings.user=K20127931
+bluej.teamsettings.ignore3=team\\.defs
+bluej.teamsettings.ignore2=bluej\\.pkh
+bluej.teamsettings.ignore5=.*\\~
+bluej.teamsettings.git.branch=panel_1_and_panel_2_branch
+bluej.teamsettings.ignore4=.*\\.ctxt
+bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.ignore6=.*\\\#
+bluej.teamsettings.git.protocol=https
+bluej.teamsettings.ignore8=\\.DS_Store

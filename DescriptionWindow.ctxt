@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=DescriptionWindow
+comment0.text=\r\n\ Group\ SWIM\:\r\n\ \ 1\:\ Israfeel\ Ashraf\ \ K21008936\r\n\ \ 2\:\ Shakeeb\ Jumaan\ \ \ K21087021\r\n\ \ 3\:\ Michael\ Seiranian\ K20127931\r\n\ \ 4\:\ William\ Atta\ \ \ \ \ K21097986\r\n\ \r\n\ This\ class\ deals\ with\ opening\ up\ the\ description\ window,\r\n\ when\ the\ user\ clicks\ on\ a\ property\ in\ the\ borough\ window.\r\n\r\n\ @author\ israfeel_ashraf\ \ K21008936\r\n\ @author\ shakeeb_jumaan\ \ \ K21087021\r\n\ @version\ 22/03/22\r\n
+comment1.params=
+comment1.target=DescriptionWindow()
+comment2.params=
+comment2.target=javafx.scene.layout.BorderPane\ addTitle()
+comment2.text=\r\n\ Add\ a\ title\ pane\ to\ the\ window.\r\n\ @return\ The\ title\ pane\ which\ will\ be\ at\ the\ top\ of\ the\ root.\r\n
+comment3.params=titleText\ houseDescriptionText
+comment3.target=javafx.stage.Stage\ openDescriptionWindow(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ This\ method\ gets\ the\ new\ window\ to\ show\ the\ description.\r\n\ @param\ titleText\ the\ name\ of\ the\ borough\r\n\ @param\ houseDescriptionText\ the\ description\ of\ the\ selected\ property.\r\n\ @return\ The\ whole\ window\ containing\ everything.\r\n
+comment4.params=text
+comment4.target=javafx.scene.layout.BorderPane\ addContentPane(java.lang.String)
+comment4.text=\r\n\ This\ method\ creates\ the\ content\ (the\ description\ of\ the\ property).\r\n\ @param\ text\ The\ description\ of\ the\ property.\r\n\ @return\ the\ central\ content\ pane.\r\n
+numComments=5

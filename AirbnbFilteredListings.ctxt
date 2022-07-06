@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AirbnbFilteredListings
+comment0.text=\r\n\ Group\ SWIM\:\r\n\ \ 1\:\ Israfeel\ Ashraf\ \ K21008936\r\n\ \ 2\:\ Shakeeb\ Jumaan\ \ \ K21087021\r\n\ \ 3\:\ Michael\ Seiranian\ K20127931\r\n\ \ 4\:\ William\ Atta\ \ \ \ \ K21097986\r\n\ \ \r\n\ This\ class\ deals\ with\ creating\ filtered\ listings\ of\ the\ airbnb\ dataset.\r\n\ This\ class\ filters\ the\ dataset\ based\ on\ price,\ and\ provides\ a\ key\ value\ dictionary\r\n\ to\ map\ the\ buttons\ to\ the\ locations\ within\ the\ dataset.\r\n\r\n\ @author\ israfeel_ashraf\ K21008936\r\n\ @version\ 22/03/22\r\n
+comment1.params=
+comment1.target=AirbnbFilteredListings()
+comment1.text=\r\n\ A\ constructor\ to\ set\ up\ the\ key\ value\ dictionary.\r\n
+comment2.params=
+comment2.target=java.util.HashMap\ createBoroughDictionary()
+comment2.text=\r\n\ A\ method\ to\ return\ the\ key\ value\ dictionary\ so\ other\ classes\ can\ use\ it.\r\n\ @return\ The\ key\ value\ dictionary\ of\ codes\ to\ locations.\r\n
+comment3.params=minPrice\ maxPrice
+comment3.target=java.util.ArrayList\ loadAirBnb(int,\ int)
+comment3.text=\r\n\ A\ method\ to\ obtain\ the\ listings\ based\ on\ the\ user\ selction\ price.\r\n\ @param\ minPrice\ The\ min\ price\ selected\ by\ the\ user.\r\n\ @param\ maxPrice\ The\ maximum\ price\ selected\ by\ the\ user.\r\n\ @return\ The\ filtered\ listings.\r\n
+comment4.params=minPrice\ maxPrice\ button
+comment4.target=java.util.ArrayList\ getBoroughListings(int,\ int,\ javafx.scene.control.Button)
+comment4.text=\r\n\ A\ method\ to\ load\ the\ airbnb\ listings\ based\ on\ price,\ but\ also\ on\ borough\ location.\r\n\ @param\ minPrice\ the\ min\ price\ selected\ by\ the\ user.\r\n\ @param\ maxPrice\ the\ max\ price\ selected\ by\ the\ user.\r\n\ @param\ button\ The\ button\ to\ get\ the\ location\ from\r\n\ @return\ The\ filtered\ arraylist\r\n
+numComments=5

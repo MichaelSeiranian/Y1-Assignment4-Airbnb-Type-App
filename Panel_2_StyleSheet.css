@@ -1,0 +1,45 @@
+#root {
+    -fx-background-color: #FFFFFF;
+}
+
+#borderPane {
+    -fx-border-width: 2px 0 0 0;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-padding: 15, 12, 15, 12;
+}
+
+#titlePane {
+    -fx-border-width: 2px 0 2px 0;
+    -fx-font-size: 30px;
+    -fx-text-alignment: CENTER;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-padding: 15, 12, 15, 12;
+}
+
+#locationButtons {
+    -fx-shape: "M 25, 50 a 25,25 0 1,1 50,0 a 25,25 0 1,1 -50,0";
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: #000000;
+    -fx-font-size: 15;
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-border-width: 2px;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+#locationButtons:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+#locationButtons:hover {
+    -fx-background-color: #5d989e;
+}
+#navigationButtons {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #000000;
+    -fx-border-with: 2px, 2px, 2px, 2px;
+}

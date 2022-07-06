@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Statistic
+comment0.text=\n\ Group\ SWIM\:\n\ \ 1\:\ Israfeel\ Ashraf\ \ K21008936\n\ \ 2\:\ Shakeeb\ Jumaan\ \ \ K21087021\n\ \ 3\:\ Michael\ Seiranian\ K20127931\n\ \ 4\:\ William\ Atta\ \ \ \ \ K21097986\n\ \ \n\ This\ class\ will\ hold\ information\ about\ each\ specific\ statistic\ to\ be\ displayed\n\ on\ the\ statistics\ panel\n\n\ @author\ Michael\ Seiranian\ K20127931\n\ @author\ William\ Atta\ K21097986\n\ @version\ 25/03/22\n
+comment1.params=name\ value\ showing
+comment1.target=Statistic(java.lang.String,\ java.lang.String,\ boolean)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Statistic\n\ \n\ @param\ name\ of\ statistic\n\ @param\ value\ of\ statistic\n\ @param\ boolean\ value\ to\ keep\ track\ of\ if\ the\ statistic\ is\ showing\ or\ not\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ @return\ name\ of\ statistic\n
+comment3.params=
+comment3.target=java.lang.String\ getValue()
+comment3.text=\n\ @return\ value\ of\ statistic\n
+comment4.params=
+comment4.target=boolean\ getShowing()
+comment4.text=\n\ @return\ if\ statistic\ is\ showing\n
+comment5.params=
+comment5.target=void\ setTrue()
+comment5.text=\n\ Sets\ showing\ to\ true\n
+comment6.params=
+comment6.target=void\ setFalse()
+comment6.text=\n\ Sets\ showing\ to\ false\n
+numComments=7

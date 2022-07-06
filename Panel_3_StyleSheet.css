@@ -1,0 +1,16 @@
+#borderPane {
+    -fx-border-width: 2px 0 0 0;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-padding: 15, 12, 15, 12;
+}
+
+#navigationButtons {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #000000;
+    -fx-border-with: 2px, 2px, 2px, 2px;
+}
+
+#root {
+    -fx-background-color: white;
+}

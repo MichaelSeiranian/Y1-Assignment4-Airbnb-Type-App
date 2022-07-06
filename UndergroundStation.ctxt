@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=UndergroundStation
+comment0.text=\n\ Group\ SWIM\:\n\ \ 1\:\ Israfeel\ Ashraf\ \ K21008936\n\ \ 2\:\ Shakeeb\ Jumaan\ \ \ K21087021\n\ \ 3\:\ Michael\ Seiranian\ K20127931\n\ \ 4\:\ William\ Atta\ \ \ \ \ K21097986\n\n\ This\ class\ represents\ one\ underground\ station.\n\ Each\ column\ in\ the\ underground-station.csv\ file\ has\ a\ field\ in\ this\ class\n\ \n\ @author\ Michael\ Seiranian\ -\ K20127931\n\ @version\ 26/03/22\n
+comment1.params=name\ lines\ neighbourhood\ zones\ opened\ usage
+comment1.target=UndergroundStation(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ class,\ representing\ one\ underground\ station\n\ \n\ @param\ All\ parameters\ explained\ in\ field\ declarations\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Below\ are\ accessor\ methods\ to\ retrieve\ information\ about\ an\ underground\ station\ \n\ to\ be\ used\ throughout\ the\ application.\n
+comment3.params=
+comment3.target=java.lang.String\ getLines()
+comment4.params=
+comment4.target=java.lang.String\ getNeighbourhood()
+comment5.params=
+comment5.target=java.lang.String\ getZones()
+comment6.params=
+comment6.target=java.lang.String\ getOpened()
+comment7.params=
+comment7.target=java.lang.String\ getUsage()
+numComments=8

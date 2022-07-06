@@ -1,0 +1,41 @@
+#titlePane {
+    -fx-border-width: 2px 0 2px 0;
+    -fx-font-size: 30px;
+    -fx-text-alignment: CENTER;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-padding: 15, 12, 15, 12;
+}
+
+#menuBar {
+    -fx-font-size: 15px;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+
+#menuBar .menu:hover {
+    -fx-background-color: black;
+}
+
+#menuBar .menu:showing {
+    -fx-background-color: black;
+}
+
+#menuBar .menu:showing .menu-item: hover {
+    -fx-background-color: black;
+}
+
+.table-view {
+    -fx-accent: black ;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: white;
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER;
+}

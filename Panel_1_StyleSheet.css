@@ -1,0 +1,61 @@
+#hbox {
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-spacing: 10;
+    -fx-padding: 15, 12, 15, 12;
+}
+
+#root {
+    -fx-background-color: #FFFFFF;
+}
+
+#navigationButtons {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #000000;
+    -fx-border-with: 2px, 2px, 2px, 2px;
+}
+
+#borderPane {
+    -fx-border-width: 2px 0 0 0;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-padding: 15, 12, 15, 12;
+}
+
+#welcome_label {
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-font-size: 30px;
+    -fx-text-alignment: CENTER;
+}
+
+#priceLabel {
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-font-size: 30px;
+    -fx-text-alignment: CENTER;
+}
+
+.combo-box {
+    -fx-pref-width: 100;
+    -fx-pref-height: 20;
+    -fx-border-color: #000000;
+    -fx-background-color: #FFFFFF;
+}
+
+/*
+.combo-box .list-cell {
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+  }
+
+.combo-box-popup .list-view .list-cell
+{
+    -fx-padding: 4 0 4 5;
+    //no highlighting
+    -fx-background-color: white;
+}
+*/
+

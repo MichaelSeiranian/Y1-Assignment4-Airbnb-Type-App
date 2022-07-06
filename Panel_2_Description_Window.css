@@ -1,0 +1,13 @@
+#titlePane {
+    -fx-border-width: 2px 0 2px 0;
+    -fx-font-size: 30px;
+    -fx-text-alignment: CENTER;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-padding: 15, 12, 15, 12;
+}
+
+#descriptionLabel {
+    -fx-font-size: 20px;
+    -fx-text-alignment: CENTER;
+}

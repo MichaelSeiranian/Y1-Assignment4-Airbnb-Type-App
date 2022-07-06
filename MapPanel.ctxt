@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MapPanel
+comment0.text=\r\n\ This\ is\ the\ second\ map\ panel\ class.\r\n\r\n\ NOTES\ FOR\ SHAKEEB\:\r\n\ \ This\ isn't\ the\ final\ version,\ and\ you\ can\ add\ your\ code\ to\ replace\ this\ class\ if\ you\ want.\r\n\ \ Make\ sure\ it\ incorporates\ the\ bottom\ button\ panel,\ so\ navigation\ can\ occur,\ though.\r\n\r\n
+comment1.params=
+comment1.target=MapPanel()
+comment2.params=
+comment2.target=javafx.scene.layout.BorderPane\ addBorderPane()
+comment3.params=
+comment3.target=javafx.scene.Scene\ mapScene()
+comment4.params=
+comment4.target=javafx.scene.control.Button\ getNextButton()
+comment5.params=
+comment5.target=javafx.scene.control.Button\ getPreviousButton()
+numComments=6

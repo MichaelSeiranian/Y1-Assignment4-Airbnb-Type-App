@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AirbnbAlertCreation
+comment0.text=\n\ Group\ SWIM\:\n\ \ 1\:\ Israfeel\ Ashraf\ \ K21008936\n\ \ 2\:\ Shakeeb\ Jumaan\ \ \ K21087021\n\ \ 3\:\ Michael\ Seiranian\ K20127931\n\ \ 4\:\ William\ Atta\ \ \ \ \ K21097986\n\ \ \n\ This\ class\ deals\ with\ all\ alert\ creation.\n\ If\ there\ is\ a\ need\ for\ an\ alert\ to\ occur,\ the\ alert\ can\ be\ created\ in\ this\ class.\n\n\ @author\ israfeel_ashraf\n\ @version\ 22/03/22\n
+comment1.params=
+comment1.target=AirbnbAlertCreation()
+comment2.params=
+comment2.target=void\ invalidPriceAlert()
+comment2.text=\n\ Invalid\ price\ alert\ method.\n\ This\ method\ is\ called\ when\ there\ is\ an\ invalid\ price\ selected\ by\ the\ user,\n\ when\ the\ max\ price\ is\ less\ than\ or\ equal\ to\ the\ min\ price.\n
+comment3.params=
+comment3.target=void\ getInvalidPriceAlert()
+comment3.text=\n\ Method\ made\ available\ to\ other\ classes\ to\ get\ the\ price\ alert.\n
+numComments=4

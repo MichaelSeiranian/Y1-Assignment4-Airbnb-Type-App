@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UndergroundPanel">
+   <children>
+      <HBox style="-fx-border-width: 2px 0 2px 0; -fx-border-style: solid; -fx-border-color: black;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="UNDERGROUND STATIONS:" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="15.0" left="12.0" right="12.0" top="15.0" />
+               </HBox.margin>
+            </Label>
+            <Button fx:id="BacktomapButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#backtomapClick" prefHeight="29.0" prefWidth="85.0" snapToPixel="false" style="-fx-background-color: white; -fx-border-color: black;" text="Back to map" visible="false">
+               <HBox.margin>
+                  <Insets left="700.0" top="25.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <AnchorPane>
+         <children>
+            <ImageView fitHeight="611.0" fitWidth="1200.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@Borough.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="harrow" fitHeight="46.0" fitWidth="28.0" layoutX="250.0" layoutY="105.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="105.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="barnet" fitHeight="46.0" fitWidth="28.0" layoutX="422.0" layoutY="71.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="422.0" AnchorPane.topAnchor="71.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="enfield" fitHeight="46.0" fitWidth="28.0" layoutX="587.0" layoutY="22.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="587.0" AnchorPane.topAnchor="22.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="hillington" fitHeight="46.0" fitWidth="28.0" layoutX="120.0" layoutY="155.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="155.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="ealing" fitHeight="46.0" fitWidth="28.0" layoutX="264.0" layoutY="216.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="264.0" AnchorPane.topAnchor="216.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="brent" fitHeight="46.0" fitWidth="28.0" layoutX="354.0" layoutY="160.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="354.0" AnchorPane.topAnchor="160.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="camden" fitHeight="46.0" fitWidth="28.0" layoutX="493.0" layoutY="166.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="493.0" AnchorPane.topAnchor="166.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="haringey" fitHeight="46.0" fitWidth="28.0" layoutX="571.0" layoutY="97.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="571.0" AnchorPane.topAnchor="97.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="hounslow" fitHeight="46.0" fitWidth="28.0" layoutX="224.0" layoutY="286.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="224.0" AnchorPane.topAnchor="286.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="richmond" fitHeight="46.0" fitWidth="28.0" layoutX="319.0" layoutY="320.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="319.0" AnchorPane.topAnchor="320.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="kingston" fitHeight="46.0" fitWidth="28.0" layoutX="357.0" layoutY="403.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="357.0" AnchorPane.topAnchor="403.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="waltham" fitHeight="46.0" fitWidth="28.0" layoutX="697.0" layoutY="87.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="697.0" AnchorPane.topAnchor="87.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="hackney" fitHeight="46.0" fitWidth="28.0" layoutX="639.0" layoutY="159.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="639.0" AnchorPane.topAnchor="159.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="islington" fitHeight="46.0" fitWidth="28.0" layoutX="571.0" layoutY="170.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="571.0" AnchorPane.topAnchor="170.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="westminster" fitHeight="46.0" fitWidth="28.0" layoutX="511.0" layoutY="220.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="511.0" AnchorPane.topAnchor="220.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="hammersmith" fitHeight="46.0" fitWidth="28.0" layoutX="401.0" layoutY="233.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="401.0" AnchorPane.topAnchor="233.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="kensington" fitHeight="46.0" fitWidth="28.0" layoutX="472.0" layoutY="253.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="472.0" AnchorPane.topAnchor="253.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="city" fitHeight="46.0" fitWidth="28.0" layoutX="597.0" layoutY="219.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="597.0" AnchorPane.topAnchor="219.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="tower" fitHeight="46.0" fitWidth="28.0" layoutX="674.0" layoutY="204.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="674.0" AnchorPane.topAnchor="204.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="newham" fitHeight="46.0" fitWidth="28.0" layoutX="765.0" layoutY="200.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="765.0" AnchorPane.topAnchor="200.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="redbridge" fitHeight="46.0" fitWidth="28.0" layoutX="821.0" layoutY="112.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="821.0" AnchorPane.topAnchor="112.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="barking" fitHeight="46.0" fitWidth="28.0" layoutX="893.0" layoutY="173.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="893.0" AnchorPane.topAnchor="173.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="havering" fitHeight="46.0" fitWidth="28.0" layoutX="1033.0" layoutY="139.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="1033.0" AnchorPane.topAnchor="139.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="bexley" fitHeight="46.0" fitWidth="28.0" layoutX="912.0" layoutY="293.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="912.0" AnchorPane.topAnchor="293.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="greenwich" fitHeight="46.0" fitWidth="28.0" layoutX="795.0" layoutY="269.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="795.0" AnchorPane.topAnchor="269.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="bromley" fitHeight="46.0" fitWidth="28.0" layoutX="804.0" layoutY="435.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="804.0" AnchorPane.topAnchor="435.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="lewisham" fitHeight="46.0" fitWidth="28.0" layoutX="697.0" layoutY="325.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="697.0" AnchorPane.topAnchor="325.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="croydon" fitHeight="46.0" fitWidth="28.0" layoutX="612.0" layoutY="465.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="612.0" AnchorPane.topAnchor="465.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="southwark" fitHeight="46.0" fitWidth="28.0" layoutX="635.0" layoutY="254.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="635.0" AnchorPane.topAnchor="254.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="lambeth" fitHeight="46.0" fitWidth="28.0" layoutX="558.0" layoutY="307.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="558.0" AnchorPane.topAnchor="307.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="merton" fitHeight="46.0" fitWidth="28.0" layoutX="457.0" layoutY="380.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="457.0" AnchorPane.topAnchor="380.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="wandsworth" fitHeight="46.0" fitWidth="28.0" layoutX="458.0" layoutY="314.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="458.0" AnchorPane.topAnchor="314.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="sutton" fitHeight="46.0" fitWidth="28.0" layoutX="490.0" layoutY="452.0" onMouseClicked="#pinClick" onMouseEntered="#pinHover" onMouseExited="#pinHoverExit" pickOnBounds="true" AnchorPane.leftAnchor="490.0" AnchorPane.topAnchor="452.0">
+               <image>
+                  <Image url="@Pinpoint.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <TableView fx:id="tableView" prefHeight="610.6" prefWidth="1200.0" visible="false" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

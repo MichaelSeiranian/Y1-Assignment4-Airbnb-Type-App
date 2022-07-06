@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=UndergroundDataLoader
+comment0.text=\ \r\n\ Group\ SWIM\:\r\n\ \ 1\:\ Israfeel\ Ashraf\ \ K21008936\r\n\ \ 2\:\ Shakeeb\ Jumaan\ \ \ K21087021\r\n\ \ 3\:\ Michael\ Seiranian\ K20127931\r\n\ \ 4\:\ William\ Atta\ \ \ \ \ K21097986\r\n\ \ \r\n\ This\ class\ is\ responsible\ for\ loading\ the\ undergroun-stations.csv\ file\r\n\ and\ organizing\ the\ data\ into\ an\ ArrayList\r\n\ \r\n\ @author\ Michael\ Seiranian\ -\ K20127931\r\n\ @version\ 26/03/22\r\n
+comment1.params=
+comment1.target=java.util.ArrayList\ load()
+comment1.text=\ \r\n\ Return\ an\ ArrayList\ containing\ the\ rows\ in\ the\ underground\ stations\ csv\ file.\r\n
+numComments=2
